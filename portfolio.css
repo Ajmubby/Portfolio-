@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0em;
+
+}
+.div1{
+  background-color: grey;
+  height: 100px;
+  text-align: center;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  border: 1.3em;
+  border-color: white;
+}
+
+#welcome_section{
+    background-image: url(./media/web\ dev\ 7.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+}
+
+.project_tile{
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h2{
+  text-align: center;
+  
+}
+.welcome_content{
+  text-align: center;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: larger;
+
+}
+.explore{
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 14px 8px 14px;
+  cursor: pointer;
+}
+.explore:hover{
+  background-color: green;
+}
+.skills{
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 14px 8px 14px;
+  cursor: pointer;
+  margin-left: 25px;
+}
+.skills:hover{
+  background-color: green;
+}
+.button{
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 90px;
+  height: 40px;
+  transition: 0.19s;
+}
+.button:hover{
+  background-color: rgb(56, 19, 13);
+  opacity: 0.8;
+}
+.button:active{
+  opacity: 0.8;
+}
+main{
+  background-color: rgb(104, 90, 10);
+  padding: 0;
+}
+.my_contacts{
+  color: white;
+  text-align: center;
+}
+.Contacts{
+  margin-bottom: 20px;
+}
+.Email_button{
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 14px 8px 14px;
+  cursor: pointer;
+}
+.Email_button:hover{
+  background-color: wheat;
+}
+
+.Tel_button{
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 14px 8px 14px;
+  cursor: pointer;
+  margin-left: 25px;
+}
+.Tel_button:hover{
+  background-color: wheat;
+}

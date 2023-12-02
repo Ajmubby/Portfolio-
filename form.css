@@ -1,0 +1,24 @@
+#contact{
+  text-align: center;
+  padding: 50px;
+}
+
+
+#contact-form{
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+label{
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+
+input, textarea{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
