@@ -25,6 +25,7 @@ nav{
     align-items: center;
     color: black;
     text-align: center;
+    font-family: fantasy;
 }
 
 .project_tile{
@@ -76,8 +77,7 @@ h2{
   color: white;
   border-radius: 10px;
   cursor: pointer;
-  width: 90px;
-  height: 40px;
+  padding: 8px 14px 8px 14px;
   transition: 0.19s;
 }
 .button:hover{
@@ -96,13 +96,12 @@ main{
   text-align: center;
 }
 .Contacts{
-  margin-bottom: 20px;
+  margin-top: 200px;
 }
 .Email_button{
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
   border: none;
-  border-radius: 10px;
   padding: 8px 14px 8px 14px;
   cursor: pointer;
 }
@@ -111,14 +110,66 @@ main{
 }
 
 .Tel_button{
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   border: none;
-  border-radius: 10px;
   padding: 8px 14px 8px 14px;
   cursor: pointer;
   margin-left: 25px;
 }
 .Tel_button:hover{
   background-color: wheat;
+}
+
+.linkedin_profile{
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 8px 14px 8px 14px;
+  cursor: pointer;
+  margin-left: 25px;
+}
+
+.linkedin_profile:hover{
+  background-color: wheat;
+
+}
+
+section:last-of-type{
+  background-color: azure;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+li{
+  margin-bottom: 5px;
+}
+
+.image{
+  max-width: 100%;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #333;
+  cursor: pointer;
+}
+
+figcaption{
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.Biodata{
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
 }
